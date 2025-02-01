@@ -9,6 +9,8 @@ import lombok.Setter;
 @Entity
 @Table(name = "user")
 public class User {
+
+    //this is fetch demo
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
